@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivakumar Vasala - Portfolio</title>
-    <meta name="description" content="Portfolio and Resume of Shivakumar Vasala">
+    <title>Vasala Ajay - Portfolio</title>
+    <meta name="description" content="Portfolio and Resume of Vasala Ajay">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,11 +21,12 @@
 
     <nav>
         <div class="nav-content">
-            <div class="logo">SV.</div>
+            <div class="logo">VA.</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact" class="btn-primary">Contact</a></li>
             </ul>
         </div>
@@ -33,33 +37,70 @@
         <section id="home" class="hero">
             <div class="hero-content fade-in">
                 <p class="greeting">Hi, I'm</p>
-                <h1 class="name">Shivakumar Vasala</h1>
-                <h2 class="title">Software Developer</h2>
+                <h1 class="name">Vasala Ajay</h1>
+                <h2 class="title">B.Tech AI Student</h2>
                 <p class="summary">
-                    I build exceptional and accessible digital experiences. Passionate about creating elegant solutions to complex problems.
+                    An aspiring software developer with foundational knowledge in Python, data structures, and algorithms. Interested in problem solving and building efficient software solutions. Currently seeking internship opportunities to apply technical skills and gain practical industry experience.
                 </p>
+                <div class="hero-socials">
+                    <a href="mailto:vasalaajay36@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/vasala-ajay/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/vasalaajay36" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
                 <div class="cta-buttons">
                     <a href="#contact" class="btn-primary">Get In Touch</a>
-                    <a href="#" class="btn-secondary">View Resume</a>
+                    <a href="#projects" class="btn-secondary">View Work</a>
                 </div>
             </div>
             <div class="hero-image fade-in">
                 <div class="image-placeholder">
-                    <!-- Intentionally left blank for aesthetic abstraction, can add image later -->
+                    <!-- Intentionally left blank for aesthetic abstraction -->
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about">
-            <h2 class="section-heading hidden">About Me</h2>
-            <div class="about-content hidden">
-                <p>
-                    Hello! My name is Shivakumar and I enjoy creating things that live on the internet. My interest in software development started back when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS taught me a lot about web development!
-                </p>
-                <p>
-                    Fast-forward to today, and I've had the privilege of building high-quality software, scalable applications, and beautiful web products.
-                </p>
+        <!-- Education & Achievements Section -->
+        <section id="education" class="education">
+            <h2 class="section-heading hidden">Education & Achievements</h2>
+            <div class="education-content hidden">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 &mdash; Present</div>
+                        <h3>B.Tech in Artificial Intelligence</h3>
+                        <h4>Anurag University, Hyderabad</h4>
+                        <p>CGPA: 8.63/10</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Ongoing</div>
+                        <h3>BS in Data Science and Applications (Online Degree)</h3>
+                        <h4>Indian Institute of Technology Madras</h4>
+                        <p>Qualified through JEE Main</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 &mdash; 2024</div>
+                        <h3>Intermediate (Class XII)</h3>
+                        <h4>Jawahar Navodaya Vidyalaya</h4>
+                        <p>Percentage: 87%</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 &mdash; 2022</div>
+                        <h3>Secondary (Class X)</h3>
+                        <h4>Jawahar Navodaya Vidyalaya</h4>
+                        <p>Percentage: 86.8%</p>
+                    </div>
+                </div>
+
+                <div class="achievements-box mt-4">
+                    <h3><i class="fas fa-trophy"></i> Academic Achievements</h3>
+                    <ul>
+                        <li>Qualified for IIT Madras BS Degree Program through JEE Main</li>
+                        <li>NMMS Scholar (2019–2020)</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -68,48 +109,141 @@
             <h2 class="section-heading hidden">Technical Skills</h2>
             <div class="skills-grid hidden">
                 <div class="skill-category">
-                    <h3>Frontend</h3>
+                    <h3><i class="fas fa-code"></i> Languages</h3>
                     <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React & Next.js</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js</li>
                         <li>Python</li>
-                        <li>Express</li>
-                        <li>SQL & NoSQL</li>
+                        <li>C</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools & Others</h3>
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
                     <ul>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                        <li>RESTful APIs</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
                     </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cubes"></i> Libraries</h3>
+                    <ul>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <ul>
+                        <li>Jupyter Notebook</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                    <ul>
+                        <li>Data Structures and Algorithms (DSA)</li>
+                        <li>Object-Oriented Programming (OOP)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects & Profiles Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-heading hidden">Projects & Profiles</h2>
+            <div class="projects-content hidden">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Personal Portfolio Website</h3>
+                        <a href="https://vasalaajay36.github.io/Projects/" target="_blank" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>GitHub Pages</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Designed and built a personal portfolio website from scratch to share my background, interests, and technical skills in a more personal and engaging way on the web.</li>
+                        <li>Focused on simple navigation, responsive layout, and clear sections (Home, About, Skills, Contact) so visitors can quickly understand who I am and what I can do, and deployed it using GitHub Pages.</li>
+                    </ul>
+                </div>
+
+                <div class="profiles-certifications flex-container mt-4">
+                    <div class="profiles-box">
+                        <h3><i class="fas fa-user-astronaut"></i> Coding Profiles</h3>
+                        <div class="profile-links">
+                            <a href="https://www.hackerrank.com/ajayvasala01" target="_blank" class="cert-link">
+                                <i class="fab fa-hackerrank"></i> HackerRank (ajayvasala01)
+                            </a>
+                            <a href="https://leetcode.com/u/ajay_vasala_/" target="_blank" class="cert-link">
+                                <i class="fas fa-code"></i> LeetCode (ajay_vasala)
+                            </a>
+                            <a href="https://www.geeksforgeeks.org/user/vasalaas94a" target="_blank" class="cert-link">
+                                <i class="fas fa-laptop-code"></i> GeeksforGeeks (vasalaas94a)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="certifications-box">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                        <ul class="cert-list">
+                            <li>
+                                Python Using AI Workshop — CertX 
+                                <a href="https://certx.in/certificate/27431ebc-ac17-43c8-9713-f5b20ad95b991057321" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </li>
+                            <li>
+                                HackerRank Skill Certification 
+                                <a href="https://www.hackerrank.com/certificates/b54725972d14" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </li>
+                            <li>
+                                Prompt Engineering Certification — Simplilearn 
+                                <a href="https://simpli-web.app.link/e/tUXNvfJ1PYb" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="contact hidden">
-            <h2 class="section-heading">What's Next?</h2>
-            <h3 class="contact-title">Get In Touch</h3>
-            <p class="contact-desc">
-                Whether you have a question or just want to say hi, I'll try my best to get back to you!
-            </p>
-            <a href="mailto:contact@example.com" class="btn-primary large">Say Hello</a>
+            <h2 class="section-heading">Contact & Info</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <h3>Get In Touch</h3>
+                    <p class="contact-desc">
+                        Whether you have a question or just want to say hi, I'll try my best to get back to you! Currently open to internships (Remote / On-site).
+                    </p>
+                    
+                    <div class="direct-contact">
+                        <p><i class="fas fa-phone-alt"></i> +91 7207323177</p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:vasalaajay36@gmail.com">vasalaajay36@gmail.com</a></p>
+                    </div>
+                    
+                    <a href="mailto:vasalaajay36@gmail.com" class="btn-primary large mt-2">Say Hello</a>
+                </div>
+
+                <div class="additional-info-card">
+                    <h3>Additional Information</h3>
+                    <ul class="info-list">
+                        <li><strong><i class="fas fa-language"></i> Languages:</strong> English, Hindi, Telugu</li>
+                        <li><strong><i class="fas fa-briefcase"></i> Availability:</strong> Open to internships</li>
+                        <li><strong><i class="fas fa-heart"></i> Interests:</strong> Competitive Programming</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Shivakumar Vasala. Built with HTML, CSS, JS.</p>
+        <p>&copy; 2024 Vasala Ajay. Built with HTML, CSS, JS.</p>
     </footer>
 
     <script src="script.js"></script>
