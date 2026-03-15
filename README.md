@@ -1,4 +1,4 @@
-# Shivakumar Vasala - Personal Portfolio
+# Vasala Ajay - Personal Portfolio
 
 Welcome to my personal portfolio website repository! This project serves as a digital resume and a showcase of my frontend web development skills, demonstrating my ability to build elegant, responsive, and interactive digital experiences from scratch.
 
@@ -45,7 +45,7 @@ Building this portfolio allowed me to showcase several core competencies:
 
 ## 📬 Contact
 
-Shivakumar Vasala - [contact@example.com](mailto:contact@example.com)
+Vasala Ajay - [vasalaajay36@gmail.com](mailto:vasalaajay36@gmail.com)
 
 ---
 *Built with passion using HTML, CSS, and JS.*
